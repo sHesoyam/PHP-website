@@ -32,7 +32,7 @@
 </div>
 <?php endfor; ?>
 <!-- Низ-->
-<?php require "shoes/header.php" ?>
+<?php require "blocks/shoes.php" ?>
 
 
 </body>

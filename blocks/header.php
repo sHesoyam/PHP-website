@@ -5,8 +5,12 @@
 	</a>
 
 	<ul class="nav nav-pills">
-		<li class="nav-item"><a href="#" class="nav-link">Главная</a></li>
-		<li class="nav-item"><a href="#" class="nav-link">Контакты</a></li>
+		<li class="nav-item"><a class="nav-link" href="/contacts.php">Отпраить письмо</a>
 	</ul>
-	<a class="btn btn-outline-primary" href="#">Войти</a>
+	
+	<?php if($_COOKIE['user'] == 'Да'): ?>
+		<a class="btn btn-outline-primary" href="/comein.php">Кабинет пользователя</a>
+	<?php else: ?>
+		<a class="btn btn-outline-primary" href="/comein.php">Войти</a>
+	<?php endif; ?>
 </header>

@@ -12,13 +12,8 @@
 <!-- Шапка-->
 <?php require "blocks/header.php" ?>
 
-<h3 class="container">Контактная форма</h3>
-<form class ="container" action="check.php" method="post"><!--Тут чек пхп и постом, методом -->
-	<input type="email" name="email" placeholder="Введите Емаil" class="form-control"><br>
-	<textarea name="message" class="form-control" placeholder="Введите ваше сообщение"></textarea><br>
-	<button type="sumbiit" name="send"class="btn btn-success">Отправить</button>
-</form>
-
+<h3 class="container">Ошибка 404</h3>
+<
 <!-- Низ-->
 <?php require "blocks/shoes.php" ?>
 </body>
